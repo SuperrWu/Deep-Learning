@@ -12,10 +12,23 @@ LSTM generate a sequence of hidden states ht, as a function of the previous hidd
 Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output **without using sequence aligned RNNs or convolution**.
 
 # Pre-Knowledge
-* Encoder-Decoder Models
+* Normal Encoder-Decoder Models
 <div align=center>
 <img src="https://github.com/SuperrWu/Deep-Learning/blob/main/figures/encode-decode.PNG?raw=true"/>
 </div>
+Some important notes:
+1. Regardless of the length of the input and output, the length of the "vector c" in the middle is fixed (this is its flaw).
+2. Different encoders and decoders can be selected according to different tasks (for example, CNN, RNN, LSTM, GRU, etc).
+3. A distinctive feature of Encoder-Decoder is that it is an end-to-end learning algorithm. (end-to-end: input-raw data, output-classification or regression)
+4. **There is a shared vector (vector c in the above figure) between the encoder and the decoder to transmit information, and its length is fixed. This will cause a problem of information loss, that is, the encoder will compress the entire sequence of information into a fixed-length vector. (Another problem in sequece models. e.g., LSTM-the first input will be diluted by the information input later, or overwritten.)**
+
+This is why Attention Encoder-Decoder Models
+
+* Attention Encoder-Decoder Models
+Reasons: To solve the infomation loss problem in normal Encoder-Decoder Models.
+
+
+
 # Transformer Arichitectures
 <div align=center>
 <img src="https://github.com/SuperrWu/Deep-Learning/blob/main/figures/transformer_model_architecture.PNG?raw=true"/>
