@@ -11,6 +11,11 @@ LSTM generate a sequence of hidden states ht, as a function of the previous hidd
 
 Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output **without using sequence aligned RNNs or convolution**.
 
+# Pre-Knowledge
+* Encoder-Decoder Models
+<div align=center>
+<img src="https://github.com/SuperrWu/Deep-Learning/blob/main/figures/encode-decode.PNG?raw=true"/>
+</div>
 # Transformer Arichitectures
 <div align=center>
 <img src="https://github.com/SuperrWu/Deep-Learning/blob/main/figures/transformer_model_architecture.PNG?raw=true"/>
