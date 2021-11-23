@@ -27,6 +27,9 @@ e(woman) - e(queen) = [-2,0,0,0,0,0,0,0.........]
 
 (w.T * V)/(|w||V|)
 
-3、asdfasd
+3、word embedding matrix
+
 ![image](https://user-images.githubusercontent.com/94330800/142990546-2e31293d-89a2-416a-8b49-97d650844b86.png)
+
+In order to make the operation easier, one column of the matrix is usually extracted directly, such as keras embedding layer
 
