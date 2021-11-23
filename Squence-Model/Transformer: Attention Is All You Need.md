@@ -6,4 +6,4 @@
 These are state of the art approaches in sequence modeling to slove transduction problems such as 
 1. language modeling
 2. machine translation.
-
+* Some Limitations & Reason for building Transformer
