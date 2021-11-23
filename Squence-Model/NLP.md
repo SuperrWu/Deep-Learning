@@ -17,7 +17,12 @@ Mainly because inner product of apple one-hot vector and orange one-hot vector a
 
 * properities of word embedding
 1. analogies
+
 man -> woman  so king -> ?
 
 e(man) - e(king) = [-2,0,0,0,0,0,0,0..........]
 e(woman) - e(queen) = [-2,0,0,0,0,0,0,0.........]
+
+2. cosine similarity
+
+(w.T * V)/(|w||V|)
