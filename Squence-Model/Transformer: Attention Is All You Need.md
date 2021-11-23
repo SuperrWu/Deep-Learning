@@ -1,5 +1,5 @@
 # Previous work:
-* Previous models
+* Previous models\
 1、Recurrent neural networks 
 2、 long short-term memory
 
