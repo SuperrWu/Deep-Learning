@@ -15,7 +15,13 @@ Transformer is the first transduction model relying entirely on self-attention t
 <div align=center>
 <img src="https://github.com/SuperrWu/Deep-Learning/blob/main/figures/transformer_model_architecture.PNG?raw=true"/>
 </div>
+
 * Encoder
+Each layer has two sub-layers:
+1. multi-head self-attention mechanism
+2. a simple, position-wise fully connected feed-forward network
+
+a residual connection after each layer. That is, the output of each sub-layer is LayerNorm(x + Sublayer(x))
 * Decoder
 
 
