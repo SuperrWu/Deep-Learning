@@ -11,4 +11,8 @@ Mainly because inner product of apple one-hot vector and orange one-hot vector a
 
 ## futurized representation: word embedding
 
-![word_embedding](https://github.com/SuperrWu/Deep-Learning/blob/main/figures/word_embedding.PNG?raw=true)
+<div align=center>
+<img src="https://github.com/SuperrWu/Deep-Learning/blob/main/figures/word_embedding.PNG?raw=true"/>
+</div>
+
+
