@@ -64,5 +64,8 @@ juice      my
 ```
 This is a little bit like self-superviesd learning
 
+Let's start training!
+
+
 
 
