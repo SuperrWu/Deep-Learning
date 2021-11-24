@@ -100,7 +100,7 @@ Used for translation
 2. The easiest way to obtain the semantic vector is to directly use the hidden state of the last input as the semantic vector C
 3. Convert variable length input into fixed length semantic vector
 * decode
-1. output the probablity of each time step according to (y_t-1, C_t-1)
+1. output the probablity of each time step according to (y_t-1, C)
 ### Attention-Model
 The normal encoder-decoder reads the input sentence and then translates it. People translation is to read one sentence and then translate one sentence. Because **memorizing a long paragraph of text is very difficult**.
 
@@ -109,4 +109,6 @@ The normal encoder-decoder reads the input sentence and then translates it. Peop
 The semantic vector C is weighted by the output of different time steps. And the a(the weight of each time point is trained by a simple neural network as followed)
 
 ![image](https://user-images.githubusercontent.com/94330800/143191056-3774c889-81ff-49ab-99b6-7cf8f7307425.png)
+
+output the probablity of each time step according to (y_t-1, C_t-1)
 
