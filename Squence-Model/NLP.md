@@ -71,9 +71,18 @@ As shown in the previous training strategy4, skip-grams is to **give a word C to
 
 ### limitations of skip-grams
 ![img](https://github.com/SuperrWu/Deep-Learning/blob/main/figures/problems%20_skip_grams.PNG?raw=true)
-The softmax need to calculate all 10000 words，so in some paper, use a **Hierarchical Softmax**. It is a tree model, each node represents a softmax node.
-
-### How to sample context C
+possible solutions:
+1. The softmax need to calculate all 10000 words，so in some paper, use a **Hierarchical Softmax**. It is a tree model, each node represents a softmax node.
+2. Negtive sampling, tranfer 10000 classification softmax to 10000 binary classification model (not train at the same time)
+![img](https://github.com/SuperrWu/Deep-Learning/blob/main/figures/nlp_negtive_sampling.PNG?raw=true) 
+```
+I want a glass of orange juice to go alone with my ceral.
+context     target     label
+orange      juice      1       (Pick target words as skip-gram do, and give the label 1)
+orange      king       0       (Pick target words randomly in word list, and give the label 0)
+orange      man        0
+orange      of         0      (give the label 0, even "of" neaby)
+```
 
 ## CBOW
 reverse the skip-grams
