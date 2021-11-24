@@ -99,6 +99,8 @@ Used for translation
 1. We use h_t=f(x_t,h_{t-1}) to caculate every time step output
 2. The easiest way to obtain the semantic vector is to directly use the hidden state of the last input as the semantic vector C
 3. Convert variable length input into fixed length semantic vector
+* decode
+1. output the probablity of each time step according to (y_t-1, C_t-1)
 ### Attention-Model
 The normal encoder-decoder reads the input sentence and then translates it. People translation is to read one sentence and then translate one sentence. Because **memorizing a long paragraph of text is very difficult**.
 
