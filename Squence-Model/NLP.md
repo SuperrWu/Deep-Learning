@@ -35,7 +35,7 @@ In order to make the operation easier, one column of the matrix is usually extra
 
 # Train the word embedding
 <div>
-  <img source="https://github.com/SuperrWu/Deep-Learning/blob/main/figures/Train_embedding.PNG?raw=true">
+  <img src="https://github.com/SuperrWu/Deep-Learning/blob/main/figures/Train_embedding.PNG?raw=true">
 </div>
 
 
