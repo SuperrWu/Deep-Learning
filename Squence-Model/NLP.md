@@ -65,7 +65,11 @@ juice      my
 This is a little bit like self-superviesd learning
 
 Let's start training!
+![img](https://github.com/SuperrWu/Deep-Learning/blob/main/figures/word2vec.PNG?raw=true)
 
+As shown in the previous training strategy4, skip-grams is to **give a word C to predict any character T in any window length before or after the text**. Use a very small network to train the embedding matrix.
 
+## CBOW
+reverse the skip-grams
 
 
