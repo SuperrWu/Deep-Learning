@@ -72,11 +72,11 @@ As shown in the previous training strategy4, skip-grams is to **give a word C to
 ### limitations of skip-grams
 The softmax need to calculate all 10000 words. This is a huge computation.
 possible solutions:
-1. use a **Hierarchical Softmax**. It is a tree model, each node represents a softmax node.
+* use a **Hierarchical Softmax**. It is a tree model, each node represents a softmax node.
 ![img](https://github.com/SuperrWu/Deep-Learning/blob/main/figures/problems%20_skip_grams.PNG?raw=true)
 
 More common words, higher tree depths are.
-3. Negtive sampling, tranfer 10000 classification softmax to 10000 binary classification model (not train at the same time)
+* Negtive sampling, tranfer 10000 classification softmax to 10000 binary classification model (not train at the same time)
 ![img](https://github.com/SuperrWu/Deep-Learning/blob/main/figures/nlp_negtive_sampling.PNG?raw=true) 
 ```
 I want a glass of orange juice to go alone with my ceral.
@@ -87,6 +87,24 @@ orange      man        0
 orange      of         0      (give the label 0, even "of" neaby)
 ```
 
-## CBOW
+# NLP models
+## Classification(many to one)
+![image](https://user-images.githubusercontent.com/94330800/143184322-73a2b28e-4403-4c5b-acc7-7acf03be3604.png)
 reverse the skip-grams
+## Seq2Seq(many to many)
+Used for translation
+### Encoder-Decoder
+![image](https://user-images.githubusercontent.com/94330800/143187023-448f4f07-4ae1-460c-98fb-28c23f96a348.png)
+* encoder
+1. We use h_t=f(x_t,h_{t-1}) to caculate every time step output
+2. The easiest way to obtain the semantic vector is to directly use the hidden state of the last input as the semantic vector C
+3. Convert variable length input into fixed length semantic vector
+### Attention-Model
+The normal encoder-decoder reads the input sentence and then translates it. People translation is to read one sentence and then translate one sentence. Because **memorizing a long paragraph of text is very difficult**.
+
+![image](https://user-images.githubusercontent.com/94330800/143191199-b0384cbf-9a1d-47d9-9ae7-8b32870f9e47.png)
+
+The semantic vector C is weighted by the output of different time steps. And the a(the weight of each time point is trained by a simple neural network as followed)
+
+![image](https://user-images.githubusercontent.com/94330800/143191056-3774c889-81ff-49ab-99b6-7cf8f7307425.png)
 
