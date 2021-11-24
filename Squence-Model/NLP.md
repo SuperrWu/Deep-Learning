@@ -34,3 +34,8 @@ e(woman) - e(queen) = [-2,0,0,0,0,0,0,0.........]
 In order to make the operation easier, one column of the matrix is usually extracted directly, such as keras embedding layer
 
 # Train the word embedding
+<div>
+  <img source="https://github.com/SuperrWu/Deep-Learning/blob/main/figures/Train_embedding.PNG?raw=true">
+</div>
+
+
