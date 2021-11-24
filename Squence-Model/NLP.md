@@ -70,10 +70,13 @@ Let's start training!
 As shown in the previous training strategy4, skip-grams is to **give a word C to predict any character T in any window length before or after the text**. Use a very small network to train the embedding matrix.
 
 ### limitations of skip-grams
-![img](https://github.com/SuperrWu/Deep-Learning/blob/main/figures/problems%20_skip_grams.PNG?raw=true)
+The softmax need to calculate all 10000 words. This is a huge computation.
 possible solutions:
-1. The softmax need to calculate all 10000 words，so in some paper, use a **Hierarchical Softmax**. It is a tree model, each node represents a softmax node.
-2. Negtive sampling, tranfer 10000 classification softmax to 10000 binary classification model (not train at the same time)
+1. use a **Hierarchical Softmax**. It is a tree model, each node represents a softmax node.
+![img](https://github.com/SuperrWu/Deep-Learning/blob/main/figures/problems%20_skip_grams.PNG?raw=true)
+
+More common words, higher tree depths are.
+3. Negtive sampling, tranfer 10000 classification softmax to 10000 binary classification model (not train at the same time)
 ![img](https://github.com/SuperrWu/Deep-Learning/blob/main/figures/nlp_negtive_sampling.PNG?raw=true) 
 ```
 I want a glass of orange juice to go alone with my ceral.
