@@ -12,7 +12,7 @@ Mainly because inner product of apple one-hot vector and orange one-hot vector a
 ## Futurized representation: word embedding
 
 <div align=center>
-<img src="https://github.com/SuperrWu/Deep-Learning/blob/main/figures/word_embedding.PNG?raw=true"/>
+<img src="https://github.com/SuperrWu/Deep-Learning/blob/main/figures/word_embedding.PNG?raw=true">
 </div>
 
 * properities of word embedding
@@ -34,8 +34,11 @@ e(woman) - e(queen) = [-2,0,0,0,0,0,0,0.........]
 In order to make the operation easier, one column of the matrix is usually extracted directly, such as keras embedding layer
 
 # Train the word embedding
-<div>
+<div aligh=center>
   <img src="https://github.com/SuperrWu/Deep-Learning/blob/main/figures/Train_embedding.PNG?raw=true">
 </div>
 
+The E embedding matrix is randomly weighted or according to different initial strategies. Using backprop to optimize the embedding matrix E.
+There are many types of training strategies:
+1. 
 
