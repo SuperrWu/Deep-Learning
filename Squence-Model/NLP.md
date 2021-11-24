@@ -53,9 +53,16 @@ Howerver, if you want to build a model to learn embedding matrix. Then just try 
 **And note that strategy 4 is also called skip-grams**
 
 # Wrod2Vec
-## skp-grams
-'''
-asdfasdfasdf
-'''
+## skip-grams
+```
+skip-grams
+I want a glass of orange juice to go alone with my ceral.
+context    target (randomly pick with a window size 10 [10 nearby words])
+juice      orange
+juice      glass
+juice      my
+```
+This is a little bit like self-superviesd learning
+
 
 
