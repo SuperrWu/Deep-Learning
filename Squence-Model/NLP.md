@@ -40,5 +40,10 @@ In order to make the operation easier, one column of the matrix is usually extra
 
 The E embedding matrix is randomly weighted or according to different initial strategies. Using backprop to optimize the embedding matrix E.
 There are many types of training strategies:
-1. 
+1. last four words   a glass of apple ?
+2. last four words on the left and right     a glass of apple ? on the white table
+3. lsat word      apple ?
+4. nearby 1 word        glass _ ? (called skip-gram)
+More detial is in the graph
+![img](https://github.com/SuperrWu/Deep-Learning/blob/main/figures/NLP_word_embeddin_context.PNG?raw=true)
 
