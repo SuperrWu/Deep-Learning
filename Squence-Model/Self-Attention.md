@@ -52,6 +52,8 @@ different q to different relevant.
 
 ![image](https://user-images.githubusercontent.com/94330800/144344936-3d6f98fc-e98d-4379-891a-f2d173a04632.png)
 
+Q, K, and V first go through a linear layer for linear transformation
+
 ## Limitations
 
 no position information in self-attention.
