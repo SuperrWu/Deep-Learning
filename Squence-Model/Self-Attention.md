@@ -15,4 +15,17 @@ compute a
 compute b
 ![image](https://user-images.githubusercontent.com/94330800/144342738-fa0f41af-9c46-481f-b7e1-35ed4331c57d.png)
 
-$$ q^i = w^q * a^i$$
+## Equations of self-attention
+
+![image](https://user-images.githubusercontent.com/94330800/144343723-c315ce19-bd30-4012-8cd4-aa24aaf34dd5.png)
+
+![image](https://user-images.githubusercontent.com/94330800/144343911-9b0cfead-cbf2-4519-806a-586632f41b74.png)
+
+![image](https://user-images.githubusercontent.com/94330800/144344097-df3e9967-c3c5-408e-b15d-485843e00760.png)
+
+
+# Muti-head Attention
+different q to different relevant.
+![image](https://user-images.githubusercontent.com/94330800/144344877-a882dcb2-74db-46a8-a50c-21abdcd8794b.png)
+
+![image](https://user-images.githubusercontent.com/94330800/144344936-3d6f98fc-e98d-4379-891a-f2d173a04632.png)
