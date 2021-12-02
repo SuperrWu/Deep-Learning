@@ -78,6 +78,7 @@ tokens in the sequence.
 
 ### why sin, cos?
 consider binary format:
+
 ![image](https://user-images.githubusercontent.com/94330800/144374084-95bcf1b9-9f7e-4316-aad9-4164e539c829.png)
 
 
