@@ -34,9 +34,7 @@ Reasons: To solve the infomation loss problem in normal Encoder-Decoder Models.
 
 
 # Transformer Arichitectures
-<div align=center>
-<img src="https://github.com/SuperrWu/Deep-Learning/blob/main/figures/transformer_model_architecture.PNG?raw=true"/>
-</div>
+![image](https://user-images.githubusercontent.com/94330800/144349743-159083ef-77d8-431c-91f2-8b66ee28141a.png)
 
 * Encoder
 Each layer has two sub-layers:
