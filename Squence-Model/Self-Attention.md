@@ -9,7 +9,7 @@ The input sequence becomes another output sequence.
 
 * SA can be used multiple times and independently in a model (for example, in Transformer, it is used 18 times; in Bert, it is used 12 times). However, AT is often used only once in a model, and serves to connect two components.
 
-* SA has no relationships with output, while AT has relationships with output (more details in )
+* SA has no relationships with output, while AT has relationships with output (more details in https://github.com/SuperrWu/Deep-Learning/blob/main/Squence-Model/NLP.md)
 
 ## Compute single output b
 
