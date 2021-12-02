@@ -69,4 +69,16 @@ Reason why: Since our model contains no recurrence and no convolution, in order 
 order of the sequence, we must inject some information about the relative or absolute position of the
 tokens in the sequence. 
 
+![image](https://user-images.githubusercontent.com/94330800/144373125-f3e9cc56-c611-49d7-b47a-a765ccc25d30.png)
+
+**note**: where pos is the position and i is the dimension. 
+
+![image](https://user-images.githubusercontent.com/94330800/144374320-7c6c2ecd-6f6a-400d-856e-41ae9a54e600.png)
+
+
+### why sin, cos?
+consider binary format:
+![image](https://user-images.githubusercontent.com/94330800/144374084-95bcf1b9-9f7e-4316-aad9-4164e539c829.png)
+
+
 
