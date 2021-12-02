@@ -40,7 +40,7 @@ Reasons: To solve the infomation loss problem in normal Encoder-Decoder Models.
 
 Each layer has two sub-layers:
 1. multi-head self-attention mechanism
-2. a simple, position-wise fully connected feed-forward network
+2. a simple, position-wise fully connected feed-forward network (later)
 3. a residual connection after each layer. That is, the output of each sub-layer is LayerNorm(x + Sublayer(x))
 
 ![image](https://user-images.githubusercontent.com/94330800/144351621-5bed7f19-d370-40cb-885e-f096467ecb6a.png)
@@ -60,5 +60,9 @@ Cross attention is first published in Seq2Seq in speech recoginazation in https:
 
 ![image](https://user-images.githubusercontent.com/94330800/144369211-e94d52f5-a5b2-4550-a496-b2e4a574577d.png)
 
+## Positional encoding
+Reason why: Since our model contains no recurrence and no convolution, in order for the model to make use of the
+order of the sequence, we must inject some information about the relative or absolute position of the
+tokens in the sequence. 
 
 
