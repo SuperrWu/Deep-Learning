@@ -45,6 +45,7 @@ Reasons: To solve the infomation loss problem in normal Encoder-Decoder Models.
 Each layer has two sub-layers:
 1. multi-head self-attention mechanism
 **notes**: scaled-dot product
+
 ![image](https://user-images.githubusercontent.com/94330800/144376931-aba17184-25b8-42e2-be4a-3893d34eebf9.png)
 
 2. a simple, position-wise fully connected feed-forward network (later)
