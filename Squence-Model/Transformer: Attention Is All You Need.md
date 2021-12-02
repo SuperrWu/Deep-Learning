@@ -45,7 +45,10 @@ Each layer has two sub-layers:
 ![image](https://user-images.githubusercontent.com/94330800/144351621-5bed7f19-d370-40cb-885e-f096467ecb6a.png)
 
 a residual connection after each layer. That is, the output of each sub-layer is LayerNorm(x + Sublayer(x))
+
 * Decoder
+1. Masked Multi-Head Attention
+![image](https://user-images.githubusercontent.com/94330800/144352915-e9bc3b1b-2511-4534-a58a-ff310e31ccd7.png)
 
 
 
