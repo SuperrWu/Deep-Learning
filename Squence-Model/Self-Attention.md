@@ -1,12 +1,15 @@
 # Self-Attention
 
-## Main Differences between Attentions and Self-Attention
-SA can be used multiple times and independently in a model (for example, in Transformer, it is used 18 times; in Bert, it is used 12 times). However, AT is often used only once in a model, and serves to connect two components.
-
 ## Target
 ![image](https://user-images.githubusercontent.com/94330800/144342859-736956fd-cc97-4b3e-a04d-380f76235008.png)
 
 The input sequence becomes another output sequence.
+
+## Main Differences between Attentions and Self-Attention
+
+* SA can be used multiple times and independently in a model (for example, in Transformer, it is used 18 times; in Bert, it is used 12 times). However, AT is often used only once in a model, and serves to connect two components.
+
+* SA has no relationships with output, while AT has relationships with output (more details in )
 
 ## Compute single output b
 
