@@ -48,6 +48,10 @@ Each layer has two sub-layers:
 
 ![image](https://user-images.githubusercontent.com/94330800/144376931-aba17184-25b8-42e2-be4a-3893d34eebf9.png)
 
+validation by python:
+![image](https://user-images.githubusercontent.com/94330800/144380317-4c81f622-ea11-4d52-bd3a-53c630d0cb6b.png)
+
+
 2. a simple, position-wise fully connected feed-forward network (later)
 3. a residual connection after each layer. That is, the output of each sub-layer is LayerNorm(x + Sublayer(x))
 
