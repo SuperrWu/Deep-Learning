@@ -59,6 +59,7 @@ different q to different relevant.
 no position information in self-attention.
 
 ## Position encoding
+![image](https://user-images.githubusercontent.com/94330800/144371519-c7aaa027-20d0-47b0-936d-ed272b33e4ee.png)
 
 
 ## Relationship between CNN and Self-Attention
