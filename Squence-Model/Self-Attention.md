@@ -1,5 +1,6 @@
 # Self-Attention
-
+## Target
+![image](https://user-images.githubusercontent.com/94330800/144342859-736956fd-cc97-4b3e-a04d-380f76235008.png)
 ## Find relevant with input sequeces
 ![image](https://user-images.githubusercontent.com/94330800/144341422-a27f6745-0cdb-4632-8e2e-e53421e7ad7c.png)
 ### How?
@@ -14,3 +15,4 @@ compute a
 compute b
 ![image](https://user-images.githubusercontent.com/94330800/144342738-fa0f41af-9c46-481f-b7e1-35ed4331c57d.png)
 
+$$ q^i = w^q * a^i$$
