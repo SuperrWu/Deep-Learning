@@ -37,11 +37,12 @@ Reasons: To solve the infomation loss problem in normal Encoder-Decoder Models.
 ![image](https://user-images.githubusercontent.com/94330800/144349743-159083ef-77d8-431c-91f2-8b66ee28141a.png)
 
 * Encoder
-![image](https://user-images.githubusercontent.com/94330800/144351621-5bed7f19-d370-40cb-885e-f096467ecb6a.png)
 
 Each layer has two sub-layers:
 1. multi-head self-attention mechanism
 2. a simple, position-wise fully connected feed-forward network
+
+![image](https://user-images.githubusercontent.com/94330800/144351621-5bed7f19-d370-40cb-885e-f096467ecb6a.png)
 
 a residual connection after each layer. That is, the output of each sub-layer is LayerNorm(x + Sublayer(x))
 * Decoder
