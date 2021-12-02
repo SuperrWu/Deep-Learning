@@ -38,3 +38,5 @@ no position information in self-attention.
 ## Relationship between CNN and Self-Attention
 ![image](https://user-images.githubusercontent.com/94330800/144346126-c694f2d9-9ebd-45c0-8b89-fccb50d2f4c1.png)
 ## Relationship between RNN and Self-Attention
+![image](https://user-images.githubusercontent.com/94330800/144346866-883b939c-a3e8-4fb1-8cb0-6edc49bce05c.png)
+
