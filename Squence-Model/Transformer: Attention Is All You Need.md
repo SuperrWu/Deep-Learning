@@ -55,7 +55,10 @@ why masked? Becuse decoder generates words **one by one**.
 2.cross attention
 
 ![image](https://user-images.githubusercontent.com/94330800/144368262-9e7c2725-8ef3-487f-a215-cbfb88981bb4.png)
+
 Cross attention is first published in Seq2Seq in speech recoginazation in https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7472621.
+
+![image](https://user-images.githubusercontent.com/94330800/144369211-e94d52f5-a5b2-4550-a496-b2e4a574577d.png)
 
 
 
