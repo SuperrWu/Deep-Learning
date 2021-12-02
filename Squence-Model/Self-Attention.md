@@ -10,13 +10,13 @@ The input sequence becomes another output sequence.
 ### Find relevance of input sequence
 
 * dot product
-* 
+
 ![image](https://user-images.githubusercontent.com/94330800/144341622-769e8bb0-4f9b-4379-b88d-93e4706a3869.png)
 
 dot product of Q and K.
 
 * Additive
-* 
+
 ![image](https://user-images.githubusercontent.com/94330800/144341676-a901a948-3432-4ee2-9f50-7a24979fdadf.png)
 
 concatenate input vector, and then get transforemed vector after the activation function (usually softmax).
