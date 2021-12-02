@@ -28,10 +28,9 @@ Some important notes:
 4. **There is a shared vector (vector c in the above figure) between the encoder and the decoder to transmit information, and its length is fixed. This will cause a problem of information loss, that is, the encoder will compress the entire sequence of information into a fixed-length vector. (Another problem in sequece models. e.g., LSTM-the first input will be diluted by the information input later, or overwritten.)**
 
 This is why Attention Encoder-Decoder Models
-
-* Attention Encoder-Decoder Models ()
 Reasons: To solve the infomation loss problem in normal Encoder-Decoder Models.
 
+* Self-Atention and Muti-head Attentions (more detials in https://github.com/SuperrWu/Deep-Learning/blob/main/Squence-Model/Self-Attention.md)
 
 
 # Transformer Arichitectures
