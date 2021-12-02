@@ -50,5 +50,12 @@ a residual connection after each layer. That is, the output of each sub-layer is
 1. Masked Multi-Head Attention
 ![image](https://user-images.githubusercontent.com/94330800/144352915-e9bc3b1b-2511-4534-a58a-ff310e31ccd7.png)
 
-why masked? Becuse decoder generates words one by one.
+why masked? Becuse decoder generates words **one by one**.
+
+2.cross attention
+
+![image](https://user-images.githubusercontent.com/94330800/144368262-9e7c2725-8ef3-487f-a215-cbfb88981bb4.png)
+Cross attention is first published in Seq2Seq in speech recoginazation in https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7472621.
+
+
 
