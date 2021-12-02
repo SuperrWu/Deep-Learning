@@ -29,3 +29,11 @@ different q to different relevant.
 ![image](https://user-images.githubusercontent.com/94330800/144344877-a882dcb2-74db-46a8-a50c-21abdcd8794b.png)
 
 ![image](https://user-images.githubusercontent.com/94330800/144344936-3d6f98fc-e98d-4379-891a-f2d173a04632.png)
+
+## Limitations
+no position information in self-attention.
+
+## Position encoding
+
+## Relationship between CNN and Self-Attention
+![image](https://user-images.githubusercontent.com/94330800/144346126-c694f2d9-9ebd-45c0-8b89-fccb50d2f4c1.png)
