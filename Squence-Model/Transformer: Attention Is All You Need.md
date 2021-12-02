@@ -50,5 +50,5 @@ a residual connection after each layer. That is, the output of each sub-layer is
 1. Masked Multi-Head Attention
 ![image](https://user-images.githubusercontent.com/94330800/144352915-e9bc3b1b-2511-4534-a58a-ff310e31ccd7.png)
 
-
+why masked? Becuse decoder generates words one by one.
 
