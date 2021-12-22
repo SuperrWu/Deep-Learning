@@ -1,7 +1,8 @@
 # Paper Link:
 https://arxiv.org/ftp/arxiv/papers/1812/1812.08434.pdf
+https://arxiv.org/pdf/2106.09135.pdf
 
-# Introduction
+# Graph Introduction
 ## Graphs
 Basic conceptions
 
@@ -46,3 +47,42 @@ PyTorch： Dynamic -- Calculate while building
 Tensorflow: Static --  Build first, calculate later
 
 EEG graph is undirected,homogeneours graph
+
+## Graph task
+
+(1) Node-level
+node classification, node regression, node clustering, etc.
+
+(2) Edge-level
+edge classification and link prediction (whether there is an edge existing between two given nodes.)
+
+(3) Graph-level
+graph classification, graph regression, and graph matching.
+
+EEG Graph task is Graph-level classification
+
+# EEG-Based GNN
+
+## Current CNN-based EEG method
+
+(1) Applying 2D convolutions to each EEG trial, which is presented by C×T, where C denotes number of EEG channels, and T denotes number of discretized time samples
+
+(2) Applying 1D convolutions along only the time axis of the EEG trial, while treating the EEG channels as separate channels of the CNN processing (No sptial info).
+
+## Graph Networks
+
+(1) nodes:  each electrode used to collect EEG data according to intl. 10-5 system represents a node in the graph
+
+(2) nodes' features: time samples acquired from an electrode corresponds to that node’s feature vector
+
+(3) Adjacency matrix
+
+i) every pair of nodes is connected by an unweighted edge 
+
+ii) every pair of nodes is connected by an edge weighted by the functional neural connectivity factor, which is the Pearson correlation coefficient between the feature vectors of the two nodes
+
+iii) a sparse adjacency matrix can be designed under the constraint only nodes that are closer than a heuristic distance are connected
+
+## Advatanges 
+
+One of the major drawbacks to using CNNs to classify EEG data is they fail to provide a brain connectivity mapping by identifying Regions of Interests (ROIs), whereas EEG-GNN can learn and visualize the connectivity between salient nodes, which addresses a critical issue of neuroscientific interpretability.
