@@ -18,7 +18,8 @@ CNNs can only operate on regular Euclidean data like images (2D grids) and texts
 ### Euclidean data (regular data)
 
 ![image](https://user-images.githubusercontent.com/94330800/146720538-0b1bb5c0-caed-403f-83ec-aea5ce770b28.png)
-Non-euclidean data (irregular)
+
+#### Non-euclidean data (irregular)
 
 ![image](https://user-images.githubusercontent.com/94330800/146720640-c73586b0-e3ce-4201-9409-029a6053db42.png)
 
